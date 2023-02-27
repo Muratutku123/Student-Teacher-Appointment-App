@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390736361279",
+    "project_id": "studentteacherappointmentsys",
+    "storage_bucket": "studentteacherappointmentsys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390736361279:android:5339d6af46db2ed645c58a",
+        "android_client_info": {
+          "package_name": "com.leventgundogdu.studentteacherappointmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390736361279-8uviv45rg5l0qjcvrs596af4jv1bipti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5d9ALSwQGYnUS00x98-n4WN5_b7X_McQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390736361279-8uviv45rg5l0qjcvrs596af4jv1bipti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

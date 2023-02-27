@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/user2Fragment">
+
+    <fragment
+        android:id="@+id/user2Fragment"
+        android:name="com.leventgundogdu.studentteacherappointmentsystem.User2Fragment"
+        android:label="activity_user_2"
+        tools:layout="@layout/fragment_user_2" >
+    <action
+        android:id="@+id/action_user2Fragment_to_chat01Fragment"
+        app:destination="@id/chat01Fragment" />
+    <action
+        android:id="@+id/action_user2Fragment_to_chat02Fragment"
+        app:destination="@id/chat02Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chat01Fragment"
+        android:name="com.leventgundogdu.studentteacherappointmentsystem.Chat01Fragment"
+        android:label="fragment_chat_01"
+        tools:layout="@layout/fragment_chat_01" />
+    <fragment
+        android:id="@+id/chat02Fragment"
+        android:name="com.leventgundogdu.studentteacherappointmentsystem.Chat02Fragment"
+        android:label="fragment_chat_02"
+        tools:layout="@layout/fragment_chat_02" />
+</navigation>
+
